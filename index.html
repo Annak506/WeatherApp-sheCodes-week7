@@ -11,15 +11,15 @@
 <body>
     <div class="weather-app">
         <header>
-        <form class="input-form">
-            <input type="search" placeholder="Enter a city.." required class="input-form-search">
-            <input type="submit" value="Search" class="input-form-submit">
+        <form class="input-form" id="input-form">
+            <input type="search" placeholder="Enter a city.." required class="input-form-search" id="input-form-search">
+            <input type="submit" value="Search" class="input-form-submit" id="input-form-submit">
         </form>
         </header>
         <main>
             <div class="current-weather">
                 <div>
-                    <h1 class="current-city">Paris</h1>
+                    <h1 class="current-city" id="city">Paris</h1>
                         <p class="current-details">
                             Tuesday 14:43 cloudy
                         </br>
@@ -39,5 +39,6 @@
             <a href="https://weatherapp-shecodes-week7.netlify.app/" target="_blank"> Netlify </a> </footer>
         </body>
     </div>
+    <script src="index.js"></script>
 
 </html>
