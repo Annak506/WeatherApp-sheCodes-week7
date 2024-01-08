@@ -114,3 +114,10 @@ div{
     position: relative;
     top: -38px;
 }
+
+#icon{
+    height: 40px;
+    width: 40px;
+    top: -8px;
+    padding: 0px;
+}
