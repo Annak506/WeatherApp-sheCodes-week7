@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>WeatherApp</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="weather-app">
@@ -19,7 +20,7 @@
         <main>
             <div class="current-weather">
                 <div>
-                    <h1 class="current-city" id="city">Paris</h1>
+                    <h1 class="current-city" id="city"></h1>
                         <p class="current-details">
                             Tuesday 14:43 cloudy
                         </br>
@@ -28,7 +29,7 @@
                 </div>
                 <div class="current-temperature">
                     <span class="current-temperature-icon">☀️</span>
-                    <span class="current-temperature-value" id="current-temperature">24</span>
+                    <span class="current-temperature-value" id="current-temperature"></span>
                     <span class="current-temperature-unit">°C</span>
                 </div>
             </div>
